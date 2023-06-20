@@ -3,23 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Smith</title>
+    <title>Smith Modinhas</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <!-- Barra de Navegação -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="index.html">Smith</a>
+    <a class="navbar-brand" href="index.html">Smith Modinhas</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="sobre.html">Sobre nós</a>
+                <a class="nav-link" href="produtos.html">Produtos</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="produtos.html">Produtos</a>
+                <a class="nav-link" href="sobre.html">Sobre nós</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="contato.html">Contato</a>
@@ -28,17 +29,31 @@
     </div>
 </nav>
 
-<!-- Cabeçalho -->
-<header class="jumbotron">
-    <div class="container text-center">
-        <h1>Bem-vindo à Empresa Fictícia</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+<!-- Carrossel de Destaque -->
+<section class="carousel-section container-fluid">
+    <div id="carouselExample" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="imagens/banner1.jpeg" class="d-block w-100" alt="Imagem 1" >
+            </div>
+            <div class="carousel-item">
+                <img src="imagens/banner2.jpeg" class="d-block w-100" alt="Imagem 2">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
     </div>
-</header>
+</section>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-<!--EDINA DA CONCEICAO-->
+<script src="js/carousel.js"></script>
 </body>
 </html>
