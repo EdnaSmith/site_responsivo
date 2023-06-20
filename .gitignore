@@ -20,3 +20,7 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+*.idea
+/.idea/modules.xml
+/.idea/vcs.xml
+/.idea/site_responsivo.iml
