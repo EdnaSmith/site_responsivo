@@ -7,3 +7,79 @@
     height: 650px; /* Define a altura das imagens do carrossel */
     object-fit: cover; /* Redimensiona as imagens para preencher o espaço */
 }
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Arial", sans-serif;
+}
+
+.navbar-nav .nav-link {
+    font-size: 16px;
+    font-family: "Arial", sans-serif;
+}
+
+nav.navbar {
+    background-color: #f8f9fa;
+}
+
+nav.navbar .navbar-brand {
+    color: #333;
+    font-weight: bold;
+}
+
+nav.navbar .navbar-nav .nav-link {
+    color: #555;
+}
+
+.aposta-img {
+    position: relative;
+    overflow: hidden;
+    border: 2px solid transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.aposta-img:hover {
+    border-color: #f8c210;
+}
+
+.aposta-img:hover::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    opacity: 0.5;
+}
+
+.aposta-img img {
+    transition: all 0.3s ease-in-out;
+}
+
+.aposta-img:hover img {
+    transform: scale(1.1);
+}
+.container {
+    overflow: hidden;
+}
+.aposta-img img:hover {
+    border: 2px solid red;
+}
+
+footer.footer {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+footer.footer h4 {
+    color: #555;
+    font-weight: bold;
+}
+
+footer.footer p {
+    color: #777;
+    margin-bottom: 5px;
+}
